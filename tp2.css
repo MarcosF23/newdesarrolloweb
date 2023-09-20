@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilo para el encabezado principal */
+h1 {
+    text-align: center;
+    background-color: #007acc;
+    color: white;
+    padding: 20px;
+}
+
+/* Estilo para el párrafo principal */
+p {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+}
+
+/* Estilo para la barra de navegación */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilo para las secciones */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+
+/* Estilo para el formulario */
+form {
+    text-align: center;
+}
+
+fieldset {
+    border: 2px solid #007acc;
+    padding: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el botón de enviar */
+input[type="submit"] {
+    background-color: #007acc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilo para la sección de biodiversidad */
+#Biodiversidad {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #007acc;
+}
+
+/* Estilo para las secciones dentro de la sección de biodiversidad */
+#Biodiversidad section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Estilo para la imagen */
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
